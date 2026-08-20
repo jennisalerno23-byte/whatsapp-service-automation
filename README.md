@@ -116,10 +116,15 @@ whatsapp-service-automation/
 │   ├── freshservice-workflows.md
 │   └── power-automate.md
 │
-└── examples/
-    ├── freshservice-ticket-payload.json
-    ├── power-automate-request.json
-    └── wati-notification-examples.md
+├── examples/
+│   ├── freshservice-ticket-payload.json
+│   ├── power-automate-request.json
+│   └── wati-notification-examples.md
+│
+└── images/
+    ├── architecture-diagram.png
+    ├── end-to-end-notification.png
+    └── wati-chatbot-flow.png
 ```
 
 ## Project Status
