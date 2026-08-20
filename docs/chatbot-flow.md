@@ -1,5 +1,7 @@
 # Chatbot Flow
 
+![Sanitized WATI chatbot flow](../images/wati-chatbot-flow.png)
+
 ## Overview
 
 The chatbot is implemented in WATI and acts as the main interaction layer between customers and the service workflow.
