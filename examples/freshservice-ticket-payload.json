@@ -1,0 +1,12 @@
+{
+  "email": "customer@example.com",
+  "subject": "WhatsApp Support: Example Customer",
+  "description": "<b>New Incident:</b><br><br><b>User:</b> Example Customer<br><b>Province:</b> Panama<br><b>Phone:</b> 50760000000<br><br><b>Details:</b><br>Example incident description",
+  "phone": "50760000000",
+  "priority": 1,
+  "status": 2,
+  "custom_fields": {
+    "province": "Panama",
+    "mobile_number": "50760000000"
+  }
+}
