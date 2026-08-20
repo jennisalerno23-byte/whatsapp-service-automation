@@ -210,6 +210,12 @@ Sanitized example:
 messageText=Update for case {{ticket.id}}: your request has been assigned to {{ticket.assigned_agent.name}}, who will be responsible for handling your case. Further follow-up will be provided via email.
 ```
 
+## End-to-End Notification Example
+
+![Sanitized end-to-end WhatsApp notification flow](../images/end-to-end-notification.png)
+
+The image above shows the customer-facing sequence from confirmation through ticket creation and engineer assignment using fictitious data for documentation purposes.
+
 This demonstrates the bidirectional integration between WATI and Freshservice:
 
 ```text
