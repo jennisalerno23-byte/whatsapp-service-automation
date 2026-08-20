@@ -14,6 +14,25 @@ The solution supports three main service areas:
 
 Depending on the selected department and business hours, the chatbot can transfer the conversation to an available agent, collect customer information for later follow-up, or automatically create a support ticket.
 
+## My Contribution
+
+I designed and implemented the solution architecture and automation workflows documented in this repository.
+
+My contribution included:
+
+* Designing the WATI chatbot flows for business-hours and after-hours scenarios
+* Defining department-based routing for Technical Support, Sales, and Administration
+* Implementing structured customer data collection and input validation
+* Integrating WATI with the Freshservice REST API for automated ticket creation
+* Configuring Freshservice workflows for incident-number notifications and On-Call engineer assignment
+* Implementing the Freshservice-to-WATI integration used to send automated WhatsApp updates
+* Designing the message sequencing logic to preserve the correct notification order
+* Creating Power Automate HTTP-triggered flows for after-hours Sales and Administration requests
+* Adding operational traceability through Freshservice private notes
+* Identifying current limitations and opportunities for future automation improvements
+
+The solution was built from an initial requirement to provide an official WhatsApp service channel and evolved into a multi-system automation that combines customer interaction, ticketing, routing, internal notifications, and REST API integrations.
+
 ## Main Technologies
 
 * WATI
