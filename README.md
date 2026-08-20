@@ -39,6 +39,8 @@ Depending on the selected department and business hours, the chatbot can transfe
 
 ## High-Level Architecture
 
+![WhatsApp Service Automation Architecture](images/architecture-diagram.png)
+
 ```text
 Customer
    |
