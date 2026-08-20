@@ -73,4 +73,46 @@ This repository documents the architecture, integration logic, implementation de
 
 It does **not** contain production credentials, API keys, customer information, internal URLs, or other confidential company data.
 
-Detailed technical documentation and architecture diagrams will be added progressively.
+## Documentation
+
+Detailed documentation is available in the `docs` directory:
+
+* [Solution Architecture](docs/architecture.md) — overall system architecture, routing logic, integrations, limitations, and improvement opportunities.
+* [WATI Chatbot Flow](docs/chatbot-flow.md) — customer interaction flow, business-hours logic, validation, navigation, and department routing.
+* [Freshservice Workflows](docs/freshservice-workflows.md) — ticket creation, customer notifications, On-Call assignment, workflow sequencing, and traceability.
+* [Power Automate Integration](docs/power-automate.md) — after-hours Sales and Administration request processing and email notification flows.
+
+## Technical Examples
+
+Sanitized integration examples are available in the `examples` directory:
+
+* [Freshservice Ticket Payload](examples/freshservice-ticket-payload.json)
+* [Power Automate Request](examples/power-automate-request.json)
+* [WATI Notification Examples](examples/wati-notification-examples.md)
+
+All examples use fictitious or sanitized values. No production credentials, customer data, internal URLs, or authentication tokens are included.
+
+## Repository Structure
+
+```text
+whatsapp-service-automation/
+│
+├── README.md
+│
+├── docs/
+│   ├── architecture.md
+│   ├── chatbot-flow.md
+│   ├── freshservice-workflows.md
+│   └── power-automate.md
+│
+└── examples/
+    ├── freshservice-ticket-payload.json
+    ├── power-automate-request.json
+    └── wati-notification-examples.md
+```
+
+## Project Status
+
+The solution described in this repository represents a completed functional implementation.
+
+The repository focuses on documenting the architecture and integration logic while identifying opportunities for future improvements such as automated On-Call rotation, enhanced error handling, stronger endpoint security, and more advanced ITSM classification.
