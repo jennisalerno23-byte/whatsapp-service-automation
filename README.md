@@ -41,34 +41,6 @@ Depending on the selected department and business hours, the chatbot can transfe
 
 ![WhatsApp Service Automation Architecture](images/architecture-diagram.png)
 
-```text
-Customer
-   |
-   v
-WhatsApp
-   |
-   v
-WATI Chatbot
-   |
-   +--------------------+--------------------+
-   |                    |                    |
-   v                    v                    v
-Technical Support      Sales            Administration
-   |                    |                    |
-   v                    +---------+----------+
-Freshservice                      |
-REST API                          v
-   |                       Power Automate
-   v                              |
-Ticket + Workflows                v
-   |                         Email Notification
-   v
-WATI REST API
-   |
-   v
-WhatsApp Notifications
-```
-
 ## Repository Purpose
 
 This repository documents the architecture, integration logic, implementation decisions, and sanitized examples of the solution.
