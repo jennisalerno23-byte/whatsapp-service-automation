@@ -33,6 +33,24 @@ My contribution included:
 
 The solution was built from an initial requirement to provide an official WhatsApp service channel and evolved into a multi-system automation that combines customer interaction, ticketing, routing, internal notifications, and REST API integrations.
 
+## Problem & Solution
+
+### Problem
+
+The initial requirement was to establish an official WhatsApp service channel that could support customer communication beyond a traditional live-agent model.
+
+The existing process did not provide a structured way to route requests, capture customer information outside business hours, or automatically create and process technical support incidents.
+
+### Solution
+
+The implemented solution uses WATI as the customer interaction layer and routes requests according to department and business hours.
+
+Technical Support requests can be converted into Freshservice tickets through the REST API, while Freshservice workflows handle incident notifications and On-Call engineer assignment.
+
+Sales and Administration requests received outside business hours are captured by the chatbot and forwarded to Power Automate, which generates structured internal email notifications for follow-up.
+
+The result is a multi-system workflow that connects customer communication, request routing, ticket creation, internal notifications, and automated WhatsApp updates.
+
 ## Main Technologies
 
 * WATI
